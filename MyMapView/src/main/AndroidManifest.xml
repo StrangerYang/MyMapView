@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mymapview">
+
+    <application android:label="@string/app_name">
+        <!-- 百度地图 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="L0DarQMT8OeGkbqRosFGtYKz0mkzRqM3" />
+        <!-- 百度地图服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+    </application>
+</manifest>
